@@ -1,0 +1,27 @@
+{
+    "name": "praem90/rail",
+    "description": "Larave client for rail to publish logs",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Praem90\\Rail\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mohan Raj",
+            "email": "mraj.murugesan@quartzy.com"
+        }
+    ],
+    "require-dev": {
+        "illuminate/support": "*",
+        "illuminate/log": "*"
+    },
+	"extra": {
+		"laravel": {
+			"providers": [
+				"Praem90\\Rail\\ServiceProvider"
+			]
+		}
+	}
+}
