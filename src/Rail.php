@@ -15,6 +15,7 @@ class Rail
 
         if ($fp) {
             fwrite($fp, $event->message);
+            fclose($fp);
         }
     }
 }
